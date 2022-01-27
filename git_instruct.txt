@@ -1,0 +1,15 @@
+1. submit changes
+2. look at previous changes and compare previous changes
+
+
+download file from git
+compare and select or merge the files to be local main
+stage and submit changes to online git.
+
+can use blame to see the latest additions or reductions in file per line number.
+need to use git diff to compare file versions.
+
+https://stackoverflow.com/questions/31203001/what-does-git-blame-do
+https://swcarpentry.github.io/git-novice/05-history/
+https://stackoverflow.com/questions/338436/how-can-i-view-an-old-version-of-a-file-with-git
+https://stackoverflow.com/questions/26683902/git-how-to-look-at-older-commits-without-losing-changes
