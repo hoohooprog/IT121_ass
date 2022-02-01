@@ -35,7 +35,8 @@ let el_bookGenre = document.getElementById('genres_available');
 
 /* display current collection of Titles and Genre, next iteration to write in by array */
 
-el_bookTitle.innerHTML = book1.retTitle() + "</br>" + book2.retTitle();
+el_bookTitle.innerHTML = `${book1.retTitle()}, author: ${book1.author}, summary: ${book1.summary}` + "</br>" 
+            + `${book2.retTitle()}, author: ${book2.author}, summary: ${book1.summary}`;
 
 el_bookGenre.innerHTML = book1.retGenre() + "</br>" + book2.retGenre();
 
