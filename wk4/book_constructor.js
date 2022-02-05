@@ -39,7 +39,7 @@ let book2 = new Book("Liposuction: The definitive guide","Guru K", "medical","XY
 let el_bookTitle = document.getElementById('titles_available');
 let el_bookGenre = document.getElementById('genres_available');
 
-/* display current collection of Titles and Genre in HTML, next iteration to write in by array */
+/* display current collection of Titles and Genre in HTML elements assigned to variable by using innerHTML API, next iteration to write in by array */
 
 el_bookTitle.innerHTML = `${book1.retTitle()}, author: ${book1.author}, summary: ${book1.summary}` + "</br>" 
             + `${book2.retTitle()}, author: ${book2.author}, summary: ${book1.summary}`;
