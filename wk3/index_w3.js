@@ -10,10 +10,12 @@ let total;
 let user_name;
  
 // tells user what game is going on, followed by a new line asking for his name
+// prompts return string values input by user
 user_name = prompt("Let's play the sum game.\nPlease enter your name");
 num1 = prompt("Enter first number");
 num2 = prompt("Enter second number");
 
+// parseInt helps to convert string to int objects to be summed and returned in template literal as strings
 document.write(`Hi, ${user_name}! The sum of ${num1} + ${num2} is ${(parseInt(num1) + parseInt(num2))}`);
 
 
