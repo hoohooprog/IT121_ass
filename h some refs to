@@ -1,0 +1,38 @@
+[33mcommit 5ee0e784c061e613c1f5e4cbd764cb92c4439626[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Tay <tyjingyi@gmail.com>
+Date:   Wed Jan 26 20:34:12 2022 -0800
+
+    html and js file for assignment 3
+
+[33mcommit fa4fd93d4e171defb63ee9ddf04c1f67ecdd3b80[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: hoohooprog <tyjingyi@gmail.com>
+Date:   Wed Jan 26 17:03:11 2022 -0800
+
+    Delete git_instruct.txt
+
+[33mcommit a0f51f4a8b65f17888f12a2e10710e8c257b8d90[m
+Author: hoohooprog <tyjingyi@gmail.com>
+Date:   Wed Jan 26 17:03:00 2022 -0800
+
+    Delete ex1.html
+
+[33mcommit cd3bc125c72ced3739b3f658bfacb429ebf5eeee[m
+Author: hoohooprog <tyjingyi@gmail.com>
+Date:   Wed Jan 26 17:02:45 2022 -0800
+
+    Delete basic-function.js
+
+[33mcommit b1698fb70b8bfb93cd6024926f22306f235039e3[m
+Author: hoohooprog <tyjingyi@gmail.com>
+Date:   Wed Jan 26 17:02:07 2022 -0800
+
+    Add files via upload
+
+[33mcommit 49ae1d850fbab00c1edc47c8bd06be170d67654a[m
+Author: Tay <tyjingyi@gmail.com>
+Date:   Wed Jan 26 15:57:05 2022 -0800
+
+    use of both template literal and concatenation for assignment 2
+
+
+// 1st rebase from origin after manual deletion and comments on github
