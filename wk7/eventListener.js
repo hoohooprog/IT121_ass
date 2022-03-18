@@ -1,5 +1,5 @@
 // https://stackoverflow.com/questions/2874688/how-to-disable-an-input-type-text
-
+//
 
 document.getElementById('MPG').disabled = true;
 
