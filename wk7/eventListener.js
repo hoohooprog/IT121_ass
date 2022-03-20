@@ -1,4 +1,8 @@
 // https://stackoverflow.com/questions/2874688/how-to-disable-an-input-type-text
+// https://javascript.info/forms-submit
+// https://stackoverflow.com/questions/19454310/stop-form-refreshing-page-on-submit
+// also eloquentJS
+
 
 // only do all these after DOM has been loaded to Window
 window.onload = function() {
@@ -34,7 +38,7 @@ window.onload = function() {
 // Post thoughts : I thought I should use 'click' as an event to listen to, but I had
 // to add eventlistener to form instead and input type 'submit' is treated as an event
 // TLDR: hence I thought submit would actually be some sort of button that I attach an eventlistener and its
-// callback function to
+// callback function to; also didn't use form but <output> instead, which will work differently
 
 // I used the submit event to prevent its default state to refresh form after submission by using its attribute
 // preventDefault();
