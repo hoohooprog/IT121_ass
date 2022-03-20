@@ -10,7 +10,7 @@ window.onload = function() {
    submit button; hence eventlistener is required to target button and
    callback fn when click event is applied to button*/
 
-
+   // references document's form object
    elForm =  document.getElementById('MPG_calculate');
 
 
@@ -19,8 +19,10 @@ window.onload = function() {
    
       var milesDriven = document.getElementById('milesDriven');
       var gasGallonUsed = document.getElementById('gasGallonsUsed');
-      var MPG = document.getElementById('MPG');
-      MPG.value = parseInt(milesDriven.value) / parseInt(gasGallonUsed.value);
+      // references document object's MPG attribute
+      var refMPG = document.getElementById('MPG');
+      // assigns value to document's MPG attribute
+      refMPG.value =(parseFloat(milesDriven.value) / parseFloat(gasGallonUsed.value)).toFixed(2);
    
    }
 
@@ -40,3 +42,7 @@ window.onload = function() {
 // slightly confused on how DOM gets updated or changes reflected in browser, ie if I declare
 // milesDrive and gasGallonUsed before submitev func def, will user input be reflected in their values
 // when eventhandler is triggered?
+//
+// ANS: changes are reflected because refMPG is a variable that references document's MPG attribute
+// and values changed are assigned to it; if define milesDriven and gasGallonUsed before submitev func
+// need to write fn to keep track of values (state) changes
